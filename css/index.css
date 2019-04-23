@@ -1,3 +1,8 @@
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
 .sacola {
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
@@ -6,12 +11,17 @@
     text-align: right;
     width: 140px;
     padding-right: 35px;
+    padding-top: 8px;
 }
 
 .menu-opcoes ul {
     font-size: 15px;
 }
 
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
 .menu-opcoes a {
     color: #003366
 }
