@@ -37,11 +37,14 @@ header {
     margin-left: 20px;
 }
 .menu-opcoes a {
-    color: #003366
+    color: #003366;
+
 }
 
 section {
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 form {
@@ -49,6 +52,7 @@ form {
     width: 230px;
     padding: 8px;
     border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
   
 }
 
@@ -58,20 +62,33 @@ input[type="search"]{
     padding-left: 8px;
 }
 
+
+
 .menu-departamentos {
     background-color: #dcdcdc;
     width: 230px;
-    padding: 8px;
+    padding: 8px 0;
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
 
 }
 
 .menu-departamentos h3 {
+    padding-left: 8px;
     padding-bottom: 8px;
 }
 
 .menu-departamentos li {
     background-color: #fff;
     border-bottom: 1px solid #dcdcdc;
+    padding: 4px 8px;
+    
+}
+
+.menu-departamentos li a {
+    color: #333;
+    text-decoration: none;
 
 }
 
