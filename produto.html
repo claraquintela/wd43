@@ -27,7 +27,7 @@
             </nav>
     </header>
     
-    <main>
+    <main class="container">
 
         <section class="produto">
             <h2>Camiseta Ecko Cavaleira Bad to the Bone</h2>
@@ -37,7 +37,7 @@
                 <fieldset class="cores">
                     <legend> Escolha a cor:</legend>
 
-                    <input type="radio" name="cor" value="verde" id="verde">
+                    <input type="radio" name="cor" value="verde" id="verde" checked>
                     <label for="verde">
                         <img src="img/produtos/foto2-verde.png" alt="Produto na cor verde">
                     </label>
@@ -53,9 +53,16 @@
                     </label>
                 </fieldset> 
 
+                <fieldset class="tamanhos">
+                    <legend>Escolha o tamanho:</legend>
+                    <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
+                    <output for="tamanho" name="valortamanho">42</output>
+                </fieldset>
+
                 <button class="comprar">Comprar</button>
             </form>
         </section>
+   
 
     </main>
     
