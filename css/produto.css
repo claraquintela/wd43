@@ -181,6 +181,26 @@ footer {
         float:left;
         margin-right: 10px;
     }
+
+    .produto fieldset {
+        display: inline-block;
+        vertical-align: top;
+        margin: 1em 0;
+        min-width: 240px;
+        width: 45%;
+    }
+
+    .tamanhos output {
+        display: inline-block;
+        height: 44px;
+        width: 44px;
+        line-height: 44px;
+        text-align: center;
+        border: 3px solid #666;
+        border-radius: 50%;
+        color: #555;
+
+    }
 }
 
 @media(min-width:1000px) {
