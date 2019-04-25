@@ -36,6 +36,35 @@ header h1 {
         color: #867dc6;
     }
 
+.produto {
+    color: #333;
+    line-height: 1.3;
+    margin-top: 2em;
+}
+
+.produto h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.produto p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.produto legend {
+    display: block;
+    font: bold 0.9em/2.5 Arial;
+    text-transform: uppercase;
+}
+
+.produto-back {
+    background-color: #f2f2f2;
+    margin-top: 1em;
+    border-top: 2px solid #ccc;
+}
+
 
 .cores {
     position: relative;
@@ -45,6 +74,7 @@ header h1 {
 .cores label img {
     display: block;
     max-width: 100%;
+    border: 2px solid #ccc;
 
 }
 
@@ -87,27 +117,16 @@ box-sizing: border-box;
     display: none;
 }
 
-.produto {
-    color: #333;
-    line-height: 1.3;
-    margin-top: 2em;
-}
+.tamanhos output {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    line-height: 44px;
+    text-align: center;
+    border: 3px solid #666;
+    border-radius: 50%;
+    color: #555;
 
-.produto h2 {
-    font-size: 1.8em;
-    font-weight: bold;
-}
-
-.produto p {
-    font-size: 1.2em;
-    font-style: italic;
-    margin-bottom: 1em;
-}
-
-.produto legend {
-    display: block;
-    font: bold 0.9em/2.5 Arial;
-    text-transform: uppercase;
 }
 
 .comprar {
@@ -120,6 +139,48 @@ box-sizing: border-box;
     display: block;
     padding: 0,5em 1em;
     margin: 1em 0;
+}
+
+.detalhes {
+    padding: 2em 0;
+}
+
+.detalhes h2 {
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.detalhes p {
+    margin: 1em 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.detalhes table {
+    border-spacing: 0.2em;
+    border-collapse: separate;
+}
+
+.detalhes thead {
+    background-color: #999;
+}
+
+.detalhes thead th {
+    font-weight: bold;
+    padding: 0.3em 1em;
+    text-align: center;
+}
+
+.detalhes td {
+    padding: 0.3em;
+}
+
+.detalhes tr:nth-child(2n) {
+    background-color: #ccc;
+}
+
+.detalhes td:first-child {
+    font-style: italic;
 }
 
 footer {
@@ -190,17 +251,7 @@ footer {
         width: 45%;
     }
 
-    .tamanhos output {
-        display: inline-block;
-        height: 44px;
-        width: 44px;
-        line-height: 44px;
-        text-align: center;
-        border: 3px solid #666;
-        border-radius: 50%;
-        color: #555;
-
-    }
+    
 }
 
 @media(min-width:1000px) {
@@ -208,5 +259,6 @@ footer {
         width: 940px;
     }
 }
+
 
     
